@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .signup-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .signup-container h1 {
+            font-size: 24px;
+            color: #f48fb1;
+            margin-bottom: 10px;
+        }
+
+        .signup-container p {
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .signup-container button.google-signin {
+            background-color: white;
+            border: 1px solid #ddd;
+            color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            width: 100%;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .signup-container button.google-signin img {
+            margin-right: 10px;
+        }
+
+        .signup-container input[type="email"],
+        .signup-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .signup-container button.signup-btn {
+            background-color: #7e57c2;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .signup-container button.signup-btn:hover {
+            background-color: #5e35b1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="signup-container">
+    <h1>makerkit</h1>
+    <p>Sign Up to your account</p>
+    
+    <button class="google-signin">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" alt="Google Logo" width="20">
+        Sign in with Google
+    </button>
+
+    <form>
+        <input type="email" placeholder="Email Address" required>
+        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Repeat Password" required>
+        <button type="submit" class="signup-btn">Create an Account</button>
+    </form>
+</div>
+
+</body>
+</html>
