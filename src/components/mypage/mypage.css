@@ -1,0 +1,73 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-item img {
+  width: 40px; /* 이미지 크기를 조정 */
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.menu-item span {
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.recent-products {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.recent-products h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.recent-products p {
+  color: #888;
+}
+
+.add-product-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #ec6229;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-product-button:hover {
+  background-color: #ff4d00;
+}

@@ -4,13 +4,13 @@ import Nav from './components/MainPage/Nav';
 import Login from './page/Login';
 import Register from './page/register';
 import MainPage from './page/MainPage';
-
+import ProductRegister from './page/ProductRegister';
+import MyPage from './page/MyPage';
 
 const Layout = () => {
   return (
     <div className='app'>
       <Nav />
-      {/* 다른 레이아웃 컴포넌트들 */}
       <Outlet />
     </div>
   );
@@ -21,16 +21,16 @@ function App() {
     <div className='app'>
       <Routes>
         <Route path='/' element={<Layout />} >
-        <Route index element={<MainPage />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/register' element={<Register />} />
-          {/* 
-          아래 라우트를 필요에 따라 추가하세요.
+          <Route index element={<MainPage />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/register' element={<Register />} />
           
-          <Route path='main' element={<MainPage />} />
-          <Route path=':moviesId' element={<DetailPage />} />
-          <Route path='search' element={<SearchPage />} /> 
-          */}
+          {/* MyPage 관련 라우트 */}
+          <Route path='/mypage' element={<MyPage />} />
+
+          {/* ProductRegister 페이지는 Nav만 포함된 레이아웃을 사용 */}
+          <Route path='/mypage/product-register' element={<ProductRegister />} />
+          
         </Route>
       </Routes>
     </div>
