@@ -1,14 +1,15 @@
 import React from 'react';
+import Category from '../../components/mypage/category';
+import ProductInfo from '../../components/mypage/productinfo';
 
 
 
 const ProductRegister = () => {
   return (
     
-    <div className="product-register-container">
-      
-      <h1>물품 등록 페이지</h1>
-      
+    <div>
+      <Category/>
+      <ProductInfo/>
     </div>
    
     
