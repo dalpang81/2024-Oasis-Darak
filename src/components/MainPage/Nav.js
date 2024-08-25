@@ -23,11 +23,11 @@ const Nav = () => {
         </div>
       </div>
       <div className='nav-menu'>
-        <a href='#home'>홈</a>
+        <Link to="/">홈</Link>
         <a href='#market'>다락시장</a>
         <a href='#community'>공동마켓</a>
         <a href='#story'>생산 스토리</a>
-        <a href='#drinks'>마이페이지</a>
+        <Link to="/mypage">마이페이지</Link>
       </div>
     </nav>
   );
