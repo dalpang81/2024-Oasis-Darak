@@ -1,0 +1,96 @@
+.group {
+  background-color: #f9f1eb;
+  padding: 4dvh;
+  border-radius: 10px;
+  margin: 0px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  position: relative; /* 버튼을 그룹 내에서 상대적으로 위치시키기 위해 */
+}
+
+.group-header {
+  margin-bottom: 50px;
+}
+
+.group-header h3 {
+  font-size: 30px;
+  color: #333;
+  margin: 0;
+}
+
+.group-content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 중앙 정렬 */
+  gap: 20px; /* 이미지와 텍스트 사이의 간격을 조정 */
+}
+
+.group-image img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.group-info {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.group-text h2 {
+  font-size: 22px;
+  color: #e34c26;
+  margin-bottom: 25px;
+  margin-top: 0px;
+}
+
+.group-text h1 {
+  font-size: 24px;
+  margin: 30px 0 20px;
+  color: #333;
+}
+
+.group-details {
+  margin-top: 0px;
+}
+
+.group-details p {
+  margin: 15px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.group-timer {
+  margin-top: 20px;
+}
+
+.group-timer button {
+  background-color: #e34c26;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.swipe-button {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #333;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.swipe-button:first-of-type {
+  left: 10px;
+}
+
+.swipe-button:last-of-type {
+  right: 10px;
+}
