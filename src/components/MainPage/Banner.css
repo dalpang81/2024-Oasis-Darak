@@ -11,7 +11,7 @@
   flex: 1;
   color: #333;
   font-family: Arial, sans-serif;
-  margin-left: 300px;
+  margin-left: 400px;
 }
 
 .banner-text p {
@@ -28,7 +28,7 @@
 
 .banner-image {
   flex-shrink: 0;
-  margin-right: 300px;
+  margin-right: 400px;
 }
 
 .banner-image img {
