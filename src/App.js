@@ -6,19 +6,20 @@ import Register from './page/register';
 import MainPage from './page/MainPage';
 import ProductRegister from './page/ProductRegister';
 import MyPage from './page/MyPage';
+import GoodsPage from "./page/Goods";
 
 const Layout = () => {
   return (
-    <div className='app'>
+    <div className="app">
       <Nav />
       <Outlet />
     </div>
   );
-}
+};
 
 function App() {
   return (
-    <div className='app'>
+    <div className="app">
       <Routes>
         <Route path='/' element={<Layout />} >
           <Route index element={<MainPage />} />
@@ -30,7 +31,6 @@ function App() {
 
           {/* ProductRegister 페이지는 Nav만 포함된 레이아웃을 사용 */}
           <Route path='/mypage/product-register' element={<ProductRegister />} />
-          
         </Route>
       </Routes>
     </div>
