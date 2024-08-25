@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Group.css";
+import { Link } from 'react-router-dom';
 
 const Group = () => {
   const [product, setProduct] = useState({
@@ -56,7 +57,9 @@ const Group = () => {
         </div>
       </div>
       <div className="group-timer">
-        <button type="button">24:00:00</button>
+        <button type="button">
+          <Link to="/goodspage">구매하기</Link>
+          </button>
       </div>
     </div>
   );

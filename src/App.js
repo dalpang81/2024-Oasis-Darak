@@ -25,7 +25,7 @@ function App() {
           <Route index element={<MainPage />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
-          
+          <Route path='/goodspage' element={<GoodsPage />} />
           {/* MyPage 관련 라우트 */}
           <Route path='/mypage' element={<MyPage />} />
 
