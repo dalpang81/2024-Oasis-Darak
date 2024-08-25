@@ -1,0 +1,169 @@
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.grayLine {
+  width: 300px;
+  height: 1px;
+  background-color: rgb(189, 189, 189);
+}
+
+.product-header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-info .badge {
+  display: block;
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.product-info h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-info p {
+  margin: 20px 0;
+}
+
+.pricing {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount {
+  width: 5%;
+  height: 50px;
+  margin: 30px 0 0 50px;
+}
+
+.discount p {
+  margin: 0;
+  font-size: 40px;
+}
+
+.discount2 {
+  width: 80%;
+  height: 100px;
+}
+
+.discount2 p {
+  font-size: 13px;
+  margin-top: 0;
+}
+
+.pricing .discount {
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+}
+
+.product-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.pricing del {
+  color: #999;
+}
+
+.pricing strong {
+  font-size: 20px;
+  color: black;
+}
+
+.group-buy {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.group-buy h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product-option {
+  display: flex;
+  align-items: center;
+  width: 18%;
+}
+
+.product-option label {
+  margin-left: 10px;
+}
+
+.purchase-info {
+  display: flex;
+  align-items: center;
+  margin-right: 0;
+}
+
+.purchae-info-check {
+  margin-right: 20px;
+}
+
+.purchae-info-check p:first-child {
+  color: #ec6229;
+}
+
+.purchase-info p {
+  margin: 0;
+}
+
+.purchase-info button {
+  border: none;
+  border-radius: 10px;
+  background-color: #ec6229;
+  color: white;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.product-story {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff8ed;
+}
+
+.product-story h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.product-story img {
+  width: 500px;
+  height: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.product-story p {
+  margin: 50px;
+  line-height: 30px;
+}
