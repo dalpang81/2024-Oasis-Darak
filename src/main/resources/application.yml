@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/darak?serverTimezone=UTC&characterEncoding=UTF-8
+    username: darak
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
